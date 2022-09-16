@@ -1,0 +1,143 @@
+#main-doc {
+  font-family: calibri;
+  display: flex;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+#index {
+  width: 350px;
+  position: fixed;
+  height: 100%;
+  color: black;
+  border: solid;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  border-width: 4px;
+  border-color: grey;
+}
+
+.index-head {
+  padding-bottom: 10px;
+  padding: 25px;
+}
+
+#technical-content {
+  padding: 25px;
+  margin-left: 350px;
+}
+
+header {
+  font-size: 40px;
+}
+
+p, .nav-link {
+  font-size: 20.5px;
+  color: grey;
+  line-height: 30px;
+}
+
+ul {
+  font-size: 20.5px;
+}
+
+#nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  border: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-width: 1px;
+  border-color: grey;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
+nav a:active {
+  text-decoration: none;
+}
+
+nav a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+section p {
+  padding-left: 18px;
+}
+
+ul {
+  padding-left: 58px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.p-links:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+.p-links:link {
+  color: grey;
+  background-color: rgb(240,240,240);
+  border-radius: 3px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+}
+
+.p-links:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+
+  #main-doc {
+  font-family: calibri;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space around;
+}
+  
+  #index {
+  color: black;
+  border: none;
+  border-color: grey;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#technical-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  border: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-width: 1px;
+  border-color: grey;
+}
+}
